@@ -535,8 +535,6 @@ All reconnaissance activities were performed against an **authorized training/la
 
 **Mpilwenhle Sibisi**
 
-**Cybersecurity Engineer**
-
 🔗 **LinkedIn:** https://www.linkedin.com/in/mpilwenhle-sibibi-7b40bb233
 
 ---
