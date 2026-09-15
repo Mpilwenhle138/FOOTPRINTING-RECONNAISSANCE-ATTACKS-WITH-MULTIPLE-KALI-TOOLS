@@ -256,7 +256,7 @@ HTTP headers can provide useful information about how a web application is confi
 
 ### Evidence
 
-<img src="curl.png" alt="curl>
+<img src="curl.png" alt="curl">
 
 ---
 
