@@ -281,23 +281,8 @@ The tool's output was examined to determine whether:
 1. A WAF was detected.
 2. A specific WAF technology could be identified.
 3. No identifiable WAF was detected.
-
-### Result
-
-**WAF Status:**
-`[Detected / Not detected / Unknown]`
-
-**Identified Technology:**
-`[Insert result if available]`
-
-### Security Relevance
-
-Understanding externally visible defensive technologies provides additional context when assessing the security architecture of a web application.
-
-### Evidence
-
-`[Insert Wafw00f screenshot here]`
-
+   
+<img src="wafw00f.png" alt="wafw00f">
 ---
 
 #  Phase Six — DNS Record Enumeration
