@@ -213,10 +213,10 @@ The investigation looked for:
 ### Result
 
 **Resolved Address:**
-`192.232.216.135
+192.232.216.135
 
 **DNS Server:**
-`8.8.8.8
+8.8.8.8
 
 <img src="nslookup.png" alt="nslookup" >
 
@@ -258,7 +258,7 @@ HTTP headers can provide useful information about how a web application is confi
 
 <img src="curl.png" alt="curl">
 
----
+
 
 # Phase Five — Defensive Technology Identification
 
@@ -280,7 +280,6 @@ The tool's output was examined to determine whether:
 
 1. A WAF was detected.
 2. A specific WAF technology could be identified.
-3. No identifiable WAF was detected.
    
 <img src="wafw00f.png" alt="wafw00f">
 ---
@@ -318,7 +317,7 @@ DNS records can provide useful information about an organization's publicly expo
 
 ### Evidence
 
-<img src="dnsrecon.png" alt="dnsrecon" >`
+<img src="dnsrecon.png" alt="dnsrecon" >
 
 ---
 
@@ -326,14 +325,14 @@ DNS records can provide useful information about an organization's publicly expo
 
 The information collected during the assessment can be summarized as follows:
 
-| Assessment Area     | Tool     | Primary Finding    |
-| ------------------- | -------- | ------------------ |
-| Domain registration | WHOIS    | Networkwalks|
-| Web technologies    | WhatWeb  | Web server: Apache` |
-| IP resolution       | Nslookup | 192.232.216.135 |
-| HTTP configuration  | Curl     | `[Insert finding]` |
-| WAF protection      | Wafw00f  | `[Insert finding]` |
-| DNS infrastructure  | Dnsrecon | `[Insert finding]` |
+| Assessment Area     | Tool     | Primary Finding             |
+| ------------------- | -------- | ------------------          |
+| Domain registration | WHOIS    | Networkwalks                |
+| Web technologies    | WhatWeb  | Web server: Apache          |
+| IP resolution       | Nslookup | 192.232.216.135             |
+| HTTP configuration  | Curl     | HTTP redirected to HTTPS    |
+| WAF protection      | Wafw00f  | The WAF was Detected        |
+| DNS infrastructure  | Dnsrecon | A and MX records identified |
 
 ---
 
